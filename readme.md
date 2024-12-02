@@ -23,3 +23,10 @@ To run the main
 
 to run the tests
 > cargo test
+
+### Typescript
+To run the main
+> deno run start
+
+to run the tests
+> deno run test
