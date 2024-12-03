@@ -38,3 +38,6 @@ To run the main
 
 to run the tests
 > deno run test
+
+---
+> Disclaimer: I tried my best to complete these problems day of; after a meeting packed day, after helping a friend move houses, after work drinks, etc. These solutions are not perfect but I had a lot of fun doing them. I recommend for the wisest approaches to the problems to look elsewhere, there's a tonne of amazing work done by the community. In saying that I appreciate you stopping by ❤️
