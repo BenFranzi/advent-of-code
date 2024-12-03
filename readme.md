@@ -7,9 +7,17 @@ challenge.
 
 ### [Year 2024](https://adventofcode.com/2024)
 - Day One
-  - [Rust](https://github.com/BenFranzi/advent-of-code/tree/main/2024/one_rust)
-    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/one_rust/src/part_one.rs)
-    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/one_rust/src/part_two.rs)
+  - [Rust](https://github.com/BenFranzi/advent-of-code/tree/main/2024/01_rust)
+    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/01_rust/src/part_one.rs)
+    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/01_rust/src/part_two.rs)
+- Day Two
+  - [Javascript](https://github.com/BenFranzi/advent-of-code/tree/main/2024/02_javascript)
+    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/02_javascript/src/partOne.ts)
+    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/02_javascript/src/partTwo.ts)
+- Day Three
+  - [Javascript](https://github.com/BenFranzi/advent-of-code/tree/main/2024/03_javascript)
+    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/03_javascript/src/partOne.ts)
+    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/03_javascript/src/partTwo.ts)
 
 
 ## How to run the solutions
