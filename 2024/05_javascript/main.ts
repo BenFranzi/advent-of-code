@@ -6,16 +6,15 @@ import partTwoSolve from './src/partTwo.ts';
 async function main() {
   console.log('Welcome to Day Five! 🎄');
 
-  const input = await readFile(resolve(import.meta.dirname!, 'inputs/day04.txt'), 'utf-8');
+  const exampleInput = await readFile(resolve(import.meta.dirname!, 'inputs/example.txt'), 'utf-8');
+  const input = await readFile(resolve(import.meta.dirname!, 'inputs/day05.txt'), 'utf-8');
 
-  const exampleInputPart1 = await readFile(resolve(import.meta.dirname!, 'inputs/example.txt'), 'utf-8');
-  const examplePart1 = partOneSolve(exampleInputPart1);
+  const examplePart1 = partOneSolve(exampleInput);
   const part1 = partOneSolve(input);
 
   console.log(`Part 1: Example -> ${examplePart1}, Solution -> ${part1}`);
 
-  const exampleInputPart2 = await readFile(resolve(import.meta.dirname!, 'inputs/example-part2.txt'), 'utf-8');
-  const examplePart2 = partTwoSolve(exampleInputPart2);
+  const examplePart2 = partTwoSolve(exampleInput);
   const part2 = partTwoSolve(input);
 
   console.log(`Part 2: Example -> ${examplePart2}, Solution -> ${part2}`);
