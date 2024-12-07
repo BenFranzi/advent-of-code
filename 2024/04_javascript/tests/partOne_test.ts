@@ -31,9 +31,9 @@ Deno.test(async function partOne() {
     .........`;
   assertEquals(solve(c(diagonals)), 4);
 
-  // const exampleInput = await readFile(resolve(import.meta.dirname!, '../inputs/example.txt'), 'utf-8')
-  // assertEquals(solve(exampleInput), 18);
+  const exampleInput = await readFile(resolve(import.meta.dirname!, '../inputs/example.txt'), 'utf-8')
+  assertEquals(solve(exampleInput), 18);
 
-  // const input = await readFile(resolve(import.meta.dirname!, '../inputs/day04.txt'), 'utf-8')
-  // assertEquals(solve(input), 183380722);
+  const input = await readFile(resolve(import.meta.dirname!, '../inputs/day04.txt'), 'utf-8')
+  assertEquals(solve(input), 2642);
 });

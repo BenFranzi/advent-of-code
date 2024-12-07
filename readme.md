@@ -18,6 +18,14 @@ challenge.
   - [Javascript](https://github.com/BenFranzi/advent-of-code/tree/main/2024/03_javascript)
     - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/03_javascript/src/partOne.ts)
     - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/03_javascript/src/partTwo.ts)
+- Day Four
+  - [Javascript](https://github.com/BenFranzi/advent-of-code/tree/main/2024/04_javascript)
+    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/04_javascript/src/partOne.ts)
+    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/04_javascript/src/partTwo.ts)
+- Day Five
+  - [Javascript](https://github.com/BenFranzi/advent-of-code/tree/main/2024/05_javascript)
+    - [Part One](https://github.com/BenFranzi/advent-of-code/blob/main/2024/05_javascript/src/partOne.ts)
+    - [Part Two](https://github.com/BenFranzi/advent-of-code/blob/main/2024/05_javascript/src/partTwo.ts)
 
 
 ## How to run the solutions
