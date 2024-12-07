@@ -14,10 +14,10 @@ async function main() {
 
   console.log(`Part 1: Example -> ${examplePart1}, Solution -> ${part1}`);
 
-  // const exampleInputPart2 = await readFile(resolve(import.meta.dirname!, 'inputs/example-part2.txt'), 'utf-8');
-  // const examplePart2 = partTwoSolve(exampleInputPart2);
-  // const part2 = partTwoSolve(input);
-  //
-  // console.log(`Part 2: Example -> ${examplePart2}, Solution -> ${part2}`);
+  const exampleInputPart2 = await readFile(resolve(import.meta.dirname!, 'inputs/example-part2.txt'), 'utf-8');
+  const examplePart2 = partTwoSolve(exampleInputPart2);
+  const part2 = partTwoSolve(input);
+
+  console.log(`Part 2: Example -> ${examplePart2}, Solution -> ${part2}`);
 }
 main();
