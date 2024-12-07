@@ -58,5 +58,11 @@ For for a single file encrypt
 For for a single file decrypt
 > `gpg --yes --passphrase "<my-super-secret-key>" --decrypt "<file>"`
 
+## How to generate a project template
+
+> `make generate TEMPLATE_VERSION=<template> OUTPUT_DIR=./<year>/<padded_number>_<template> NUMBER=<number> WORD_NUMBER=<word_number>`
+
+> `make generate TEMPLATE_VERSION=javascript OUTPUT_DIR=./2024/06_javascript NUMBER=6 WORD_NUMBER=Six`
+
 ---
 > Disclaimer: I tried my best to complete these problems day of; after a meeting packed day, after helping a friend move houses, after work drinks, etc. These solutions are not perfect but I had a lot of fun doing them. I recommend for the wisest approaches to the problems to look elsewhere, there's a tonne of amazing work done by the community. In saying that I appreciate you stopping by ❤️

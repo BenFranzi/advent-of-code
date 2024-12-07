@@ -3,7 +3,7 @@ INPUT_DIRS := $(wildcard $(BASE_DIR)/*/inputs)
 TXT_FILES := $(foreach dir,$(INPUT_DIRS),$(wildcard $(dir)/*.txt))
 GPG_FILES := $(foreach dir,$(INPUT_DIRS),$(wildcard $(dir)/*.gpg))
 
-.PHONY: all encrypt decrypt clean help
+.PHONY: all encrypt decrypt generate clean help
 
 encrypt: $(TXT_FILES)
 	@echo "Encrypting"
@@ -38,6 +38,10 @@ decrypt: $(GPG_FILES)
 		fi; \
 	done
 	@echo "Decryption complete 🔓"
+
+generate:
+	@echo "Running generate.sh with TEMPLATE_VERSION=$(TEMPLATE_VERSION) OUTPUT_DIR=$(OUTPUT_DIR) NUMBER=$(NUMBER) WORD_NUMBER=$(WORD_NUMBER)"
+	@bash ./templates/generate.sh $(TEMPLATE_VERSION) $(OUTPUT_DIR) $(NUMBER) $(WORD_NUMBER)
 
 clean:
 	@echo "Cleaning up unencrypted .txt files..."
